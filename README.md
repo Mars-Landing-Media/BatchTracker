@@ -20,13 +20,8 @@ Batch Tracker is a ServiceNow application designed to streamline the management 
 
 Batch Tracker is packed with features to enhance your update set management processes:
 
-## Features
-
-Batch Tracker is packed with features to enhance your update set management processes:
-
 1. **Batch Management Dashboard**:  
    - Centralized dashboard for viewing and managing update set batches.  
-   - Filter by categories, statuses, or environments to quickly locate specific batches.  
 
 2. **Audit-Friendly Reporting**:  
    - Generate detailed reports for each batch, including batch contents.  
@@ -62,13 +57,12 @@ For a detailed walkthrough, refer to the **Mars Landing Media - Batch Tracker Do
 
 - Visualize and manage update sets for a release in one consolidated view.
 - Automate the generation of XML files for batch promotion to higher environments.
-- Track batch contents and their statuses across development, testing, and production.
-- Organize update sets by category to align with development processes.
+- Generate and download project or personal XML backups. Download files are automatically named according to your named configuration...not a sys_id (thank goodness).
 
 ## Installation
 
 ### Step 1: Download and Import the Update Set
-1. Download the Batch Tracker update set from the Mars Landing Media GitHub repository or official distribution channel.
+1. Download the Batch Tracker update set from the Mars Landing Media GitHub repository.
 2. Navigate to **System Update Sets > Retrieved Update Sets** in your ServiceNow instance.
 3. Upload the update set and commit it.
 
@@ -76,31 +70,9 @@ For a detailed walkthrough, refer to the **Mars Landing Media - Batch Tracker Do
 1. Open the **Batch Tracker Portal** settings module in the application navigator.
 2. Start creating and managing batches.
 
-### Step 3: Test and Deploy
-1. Create a test batch of update sets.
-2. Review the batch in the Batch Tracker dashboard.
-3. Deploy to production when satisfied with the setup.
-
-## Example Configuration
-
-### Example Batch Entry
-| Field           | Value                  |
-|------------------|------------------------|
-| Name            | `Release 1.2 Updates` |
-| Category        | `Feature Release`     |
-| Status          | `In Progress`         |
-| Environment     | `Development`         |
-
-### Example Report Entry
-| Field           | Value                  |
-|------------------|------------------------|
-| Batch Name      | `Release 1.2 Updates` |
-| Total Update Sets | `15`                 |
-| Promotion Status | `Pending`            |
-
 ## Documentation
 
-For a comprehensive guide to configuring and using Batch Tracker, refer to the [Mars Landing Media - Batch Tracker Doc.pdf](Mars_Landing_Media_BatchTracker_Doc.pdf) included in this repository. It contains step-by-step instructions, best practices, and troubleshooting tips.
+For a comprehensive guide to configuring and using Batch Tracker, refer to the [Mars Landing Media - Batch Tracker Doc.pdf](Mars_Landing_Media_BatchTracker_Doc.pdf) included in this repository. It contains step-by-step instructions.
 
 ## Licensing
 
@@ -108,4 +80,4 @@ This application is licensed under the **MIT License**. See the [LICENSE](LICENS
 
 ---
 
-Batch Tracker simplifies update set management and promotes transparency and efficiency for ServiceNow development teams. For detailed instructions and support, visit the [Mars Landing Media GitHub repository](https://github.com/Mars-Landing-Media).
+
