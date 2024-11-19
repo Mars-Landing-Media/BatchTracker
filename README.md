@@ -20,45 +20,43 @@ Batch Tracker is a ServiceNow application designed to streamline the management 
 
 Batch Tracker is packed with features to enhance your update set management processes:
 
+## Features
+
+Batch Tracker is packed with features to enhance your update set management processes:
+
 1. **Batch Management Dashboard**:  
    - Centralized dashboard for viewing and managing update set batches.  
    - Filter by categories, statuses, or environments to quickly locate specific batches.  
 
-2. **Update Set Promotion Tracking**:  
-   - Keep track of batch promotions across development, test, and production environments.  
-   - Visual indicators highlight pending, in-progress, and completed promotions.  
-
-3. **Audit-Friendly Reporting**:  
-   - Generate detailed reports for each batch, including batch contents, timestamps, and promotion history.  
+2. **Audit-Friendly Reporting**:  
+   - Generate detailed reports for each batch, including batch contents.  
    - Exportable reports ensure easy sharing and audit compliance.  
 
-4. **Automated XML Export**:  
+3. **Automated XML Export**:  
    - Effortlessly export update set XML files directly from the Batch Tracker interface.  
    - Reduces manual effort during large-scale promotions or migrations.  
 
-5. **Customizable Categories and Tags**:  
-   - Organize batches with categories and tags for better structure.  
-   - Tailor categories to align with organizational processes or project milestones.  
+4. **Scope Deconfliction Support**:  
+   - Detect and resolve conflicts in update sets across multiple application scopes.  
+   - Visual indicators highlight conflicts, helping teams prioritize resolution.  
+   - Log detailed information about conflicting records for faster troubleshooting.  
 
-6. **Role-Based Access Control**:  
+7. **Role-Based Access Control**:  
    - Assign roles to limit who can view, edit, or promote batches.  
    - Ensure security by controlling access based on user responsibilities.  
 
-7. **Batch Execution Insights**:  
-   - Real-time insights into batch execution statuses.  
-   - Track the success or failure of individual update sets within a batch.  
 
 ## How It Works
 
-Batch Tracker integrates seamlessly with ServiceNow to help developers and admins efficiently manage update sets. It enables batch creation, visualization, and promotion, offering tools to maintain transparency and streamline workflows during the development lifecycle.
+Batch Tracker integrates seamlessly with ServiceNow to help developers and admins efficiently manage update sets. It enables batch creation, and visualization, offering tools to maintain transparency and streamline workflows during the development lifecycle.
 
 ### Accessing the Application
 
 1. Log in to your ServiceNow instance.
-2. Navigate to the application navigator and search for **"Batch Tracker"**.
+2. Navigate to the application navigator and search for **"Batch Tracker Portal"**.
 3. Open the **Batch Tracker Dashboard** to view, manage, and create batch entries.
 
-For a detailed walkthrough, refer to the **How-To Document** included in the repository.
+For a detailed walkthrough, refer to the **Mars Landing Media - Batch Tracker Doc** included in the repository.
 
 ## Example Use Cases
 
