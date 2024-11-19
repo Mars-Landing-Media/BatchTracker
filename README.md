@@ -18,11 +18,35 @@ Batch Tracker is a ServiceNow application designed to streamline the management 
 
 ## Features
 
-- **Batch Visualization**: View and manage all update set batches in one place.
-- **Release Reporting**: Generate detailed reports on batch contents for release tracking.
-- **Automated XML Downloads**: Simplify the process of downloading update set XML files.
-- **Promotion Tracking**: Monitor the promotion of batches across instances.
-- **Customizable Categories**: Organize update sets by release, feature, or environment.
+Batch Tracker is packed with features to enhance your update set management processes:
+
+1. **Batch Management Dashboard**:  
+   - Centralized dashboard for viewing and managing update set batches.  
+   - Filter by categories, statuses, or environments to quickly locate specific batches.  
+
+2. **Update Set Promotion Tracking**:  
+   - Keep track of batch promotions across development, test, and production environments.  
+   - Visual indicators highlight pending, in-progress, and completed promotions.  
+
+3. **Audit-Friendly Reporting**:  
+   - Generate detailed reports for each batch, including batch contents, timestamps, and promotion history.  
+   - Exportable reports ensure easy sharing and audit compliance.  
+
+4. **Automated XML Export**:  
+   - Effortlessly export update set XML files directly from the Batch Tracker interface.  
+   - Reduces manual effort during large-scale promotions or migrations.  
+
+5. **Customizable Categories and Tags**:  
+   - Organize batches with categories and tags for better structure.  
+   - Tailor categories to align with organizational processes or project milestones.  
+
+6. **Role-Based Access Control**:  
+   - Assign roles to limit who can view, edit, or promote batches.  
+   - Ensure security by controlling access based on user responsibilities.  
+
+7. **Batch Execution Insights**:  
+   - Real-time insights into batch execution statuses.  
+   - Track the success or failure of individual update sets within a batch.  
 
 ## How It Works
 
