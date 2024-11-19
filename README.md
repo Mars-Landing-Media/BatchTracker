@@ -100,7 +100,7 @@ For a detailed walkthrough, refer to the **Mars Landing Media - Batch Tracker Do
 
 ## Documentation
 
-For a comprehensive guide to configuring and using Batch Tracker, refer to the **[Mars Landing Media - Batch Tracker Doc.pdf](Mars Landing Media - Batch Tracker Doc.pdf)** included in this repository. It contains step-by-step instructions, best practices, and troubleshooting tips.
+For a comprehensive guide to configuring and using Batch Tracker, refer to the [Mars Landing Media - Batch Tracker Doc.pdf](Mars Landing Media - Batch Tracker Doc.pdf) included in this repository. It contains step-by-step instructions, best practices, and troubleshooting tips.
 
 ## Licensing
 
